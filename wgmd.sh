@@ -163,8 +163,8 @@ function w64(){
 		apt-get update -y &&  apt install sudo -y
 		apt -y --no-install-recommends install openresolv dnsutils wireguard-tools
 	fi
-wget -N -6 https://cdn.jsdelivr.net/gh/ygkkk/WarpEUserv/wgcf -O /usr/local/bin/wgcf
-wget -N -6 https://cdn.jsdelivr.net/gh/ygkkk/WarpEUserv/wireguard-go -O /usr/bin/wireguard-go
+wget -N -6 https://cdn.jsdelivr.net/gh/kkkyg/WarpEUserv/wgcf -O /usr/local/bin/wgcf
+wget -N -6 https://cdn.jsdelivr.net/gh/kkkyg/WarpEUserv/wireguard-go -O /usr/bin/wireguard-go
 chmod +x /usr/local/bin/wgcf
 chmod +x /usr/bin/wireguard-go
 echo | wgcf register
@@ -200,8 +200,8 @@ function w646(){
 		apt-get update -y &&  apt install sudo -y
 		apt -y --no-install-recommends install openresolv dnsutils wireguard-tools
 	fi
-wget -N -6 https://cdn.jsdelivr.net/gh/ygkkk/WarpEUserv/wgcf -O /usr/local/bin/wgcf
-wget -N -6 https://cdn.jsdelivr.net/gh/ygkkk/WarpEUserv/wireguard-go -O /usr/bin/wireguard-go
+wget -N -6 https://cdn.jsdelivr.net/gh/kkkyg/WarpEUserv/wgcf -O /usr/local/bin/wgcf
+wget -N -6 https://cdn.jsdelivr.net/gh/kkkyg/WarpEUserv/wireguard-go -O /usr/bin/wireguard-go
 chmod +x /usr/local/bin/wgcf
 chmod +x /usr/bin/wireguard-go
 echo | wgcf register
@@ -238,8 +238,8 @@ function w66(){
 		apt-get update -y &&  apt install sudo -y
 		apt -y --no-install-recommends install openresolv dnsutils wireguard-tools
 	fi
-wget -N -6 https://cdn.jsdelivr.net/gh/ygkkk/WarpEUserv/wgcf -O /usr/local/bin/wgcf
-wget -N -6 https://cdn.jsdelivr.net/gh/ygkkk/WarpEUserv/wireguard-go -O /usr/bin/wireguard-go
+wget -N -6 https://cdn.jsdelivr.net/gh/kkkyg/WarpEUserv/wgcf -O /usr/local/bin/wgcf
+wget -N -6 https://cdn.jsdelivr.net/gh/kkkyg/WarpEUserv/wireguard-go -O /usr/bin/wireguard-go
 chmod +x /usr/local/bin/wgcf
 chmod +x /usr/bin/wireguard-go
 echo | wgcf register
@@ -297,12 +297,12 @@ systemctl status wg-quick@wgcf
 }
 
 function up4(){
-wget -N --no-check-certificate https://raw.githubusercontent.com/ygkkk/WarpEUserv/main/wgmd.sh && chmod +x wgmd.sh && ./wgmd.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/kkkyg/WarpEUserv/main/wgmd.sh && chmod +x wgmd.sh && ./wgmd.sh
 }
 
 function up6(){
 echo -e nameserver 2a00:1098:2c::1 > /etc/resolv.conf
-wget -6 -N --no-check-certificate https://raw.githubusercontent.com/ygkkk/WarpEUserv/main/wgmd.sh && chmod +x wgmd.sh && ./wgmd.sh
+wget -6 -N --no-check-certificate https://raw.githubusercontent.com/kkkyg/WarpEUserv/main/wgmd.sh && chmod +x wgmd.sh && ./wgmd.sh
 }
 
 #主菜单
