@@ -81,6 +81,9 @@ yellow " VPS相关信息如下："
     white " -----------------------------------------------" 
 sleep 1s
 
+echo -e "search blue.kundencontroller.de\noptions rotate\nnameserver 2001:67c:2b0::4\nnameserver 2001:67c:2b0::6" > /etc/resolv.conf
+
+
 warpwg=$(systemctl is-active wg-quick@wgcf)
 case ${warpwg} in
 active)
