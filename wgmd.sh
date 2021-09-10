@@ -308,7 +308,7 @@ wget -6 -N --no-check-certificate https://raw.githubusercontent.com/kkkyg/WarpEU
 #主菜单
 function start_menu(){
     clear
-    yellow " 详细说明 https://github.com/ygkkk/WarpEUserv  YouTube频道：甬哥侃侃侃" 
+    yellow " 详细说明 https://github.com/kkkyg/WarpEUserv  YouTube频道：甬哥侃侃侃" 
     
     red " 切记：进入脚本快捷方式 bash wgmd.sh "
     
